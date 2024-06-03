@@ -1,5 +1,5 @@
 #Импорт файла sender_stand_request
-import sender_stand_request
+#import sender_stand_request
 
 #Заголовок для создания пользователя
 headers = {
@@ -14,8 +14,8 @@ user_body = {
 }
 
 #Заголовок для запроса на создание набора пользователя
-headers_for_kit = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer {" + sender_stand_request.authToken + "}"
-}
+#headers_for_kit = {
+#    "Content-Type": "application/json",
+#    "Authorization": sender_stand_request.authToken
+#}
 
